@@ -1,0 +1,26 @@
+seed: 100
+train:
+  seed: 100
+  batchsize: 100
+  T: 10
+  dim: 2 
+  task: Linear2D
+  epoch: 3000
+  full_bs: 50000
+  n_cluster: 10
+  val_sample: 2500
+  lr: 3e-4
+  pinn_epoch : 3000
+  lsq_num : 50000
+  lsq_degree: 3
+  lsq: True
+  ADO : True
+  PINN: False
+  pinn_update_batch: 200
+  update_epoch: 100
+  ode_epoch: 500
+  lr_base: 0.001
+  laml1: 0.005
+  threshold: 2.3
+  grad_threshold_epoch: 200
+  grad_threshold: 0.04
